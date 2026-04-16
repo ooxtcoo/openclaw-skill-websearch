@@ -1,0 +1,14 @@
+# Build outputs
+websearch.exe
+websearch
+*.exe
+
+# Runtime artifacts
+downloads/
+go-websearch/downloads/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
