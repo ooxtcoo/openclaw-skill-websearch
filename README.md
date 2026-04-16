@@ -90,8 +90,12 @@ go build -trimpath -ldflags "-s -w" -o websearch.exe .\main.go
 ## Build on Linux/macOS
 
 ```bash
-go build -trimpath -ldflags "-s -w" -o websearch ./main.go
+./build.sh
 ```
+
+## Publish notes
+
+This package is intended for ClawHub as a **skill**, not a plugin.
 
 ## Notes
 
